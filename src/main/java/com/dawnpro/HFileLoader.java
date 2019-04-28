@@ -26,8 +26,8 @@ public class HFileLoader {
         try {
             Configuration configuration = HBaseConfiguration.create();
             String zk = "10.99.8.102,10.99.8.103,10.99.8.104";
-            String secureid="ulOhQJ2nUfHOGIdHkLAc98mJOGny9cWbkNVM";
-            String securekey="swOfKGziXwvfptKVuShn8OPZodEeWE9V";
+            String secureid="*";
+            String securekey="*";
 
             configuration.set("hbase.zookeeper.quorum", zk);
             configuration.set("zookeeper.znode.parent", "/hbase-unsecure");
